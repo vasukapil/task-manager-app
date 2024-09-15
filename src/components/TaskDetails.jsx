@@ -26,7 +26,7 @@ const TaskDetails = () => {
         <strong>Status:</strong> {task.completed ? "Done" : (task.inProgress ? "In Progress" : "Todo")}
       </p>
     </div>
-    <button className="ml-2 p-2 bg-blue-500 text-white rounded my-4 block !mx-auto" onClick={()=>navigate('/TaskBoard')}>Back</button>
+    <button className="ml-2 p-2 bg-blue-500 text-white rounded my-5 block !mx-auto" onClick={()=>navigate('/TaskBoard')}>Back</button>
     </>
   );
 };
